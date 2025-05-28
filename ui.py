@@ -30,3 +30,4 @@ if st.button("Search"):
             if st.button(f"Follow {user['handle']}", key=user['did']):
                 bot.follow_user(user['did'])
                 st.success(f"Followed {user['handle']}")
+                st.balloons()
